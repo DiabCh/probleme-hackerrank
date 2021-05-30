@@ -51,17 +51,7 @@ def func(possible_com, M, outcomes=[], total = 0):
     print(max(outcomes))
 
 
-
-
-# K,M = map(int,input().split())
-# array = []
-# for i in range(K):
-#     to_add = input().split()
-#     to_add = [int(x) for x in to_add]
-#     array.append(list(to_add[1:]))
-
-
-K,M = 1, 384
+K,M = map(int,input().split())
 array = []
 for i in range(K):
     to_add = input().split()
